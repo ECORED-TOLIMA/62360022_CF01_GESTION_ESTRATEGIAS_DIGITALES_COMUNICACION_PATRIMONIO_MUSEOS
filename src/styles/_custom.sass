@@ -3,13 +3,13 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
+    top: 15%
+    left: 1%
     width: 20%
   &-2
-    animation: float1 2.5s ease-in-out infinite alternate
+    animation: float1 2.2s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 33%
     right: 10%
     width: 20%
 
@@ -21,16 +21,32 @@
   100%
     transform: translateY(0px)
 
-.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-  flex: 0 0 auto !important
-  width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
-.banner-principal__row .banner-principal__img 
-    width: 33%;
+// Modulo versión escritorio/movil
+@media (min-width:1400px)
+  .movil2
+    display: inline
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+
+.banner-principal__row .banner-principal__img
+  width: 485.5px !important 
     
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: $white !important  
+
+.banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6, .banner-principal p
+  color: $black !important
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -40,13 +56,37 @@
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $black !important
 figcaption 
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
     color: $color-acento-botones !important;
 
+.banner-principal
+  .banner-principal__row
+    transform: translateY(35px)
+
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: 100% 100% !important
+    background-position: center
+    min-height: 520px
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -65,7 +105,1573 @@ figcaption
   &-1
     background-color: $color-primario
 
+.cajon.C01, .tarjeta--C01
+  background-color: #EFF1EB 
 
+.cajon.C02
+  background-color: #F4F1E9
+
+.cajon.C03
+  background-color: #F9E7E7
+  border-radius: 14px
+
+.cajon.C04
+  background-color: #F9E7E7
+
+.cajon.C05
+  background-color: #E5DFCA
+
+.cajon.C06
+  background-color: #E8E8F4
+
+.slyder__btn
+  background-color: #4D5198 !important
+  color: #fff !important
+
+.tarjeta--C02
+  background-color: #EFF1EB
+  border-radius: 35px
+
+.tarjeta--C03
+  background-color: #EFF1EB
+
+@media (max-width: 991.98px)
+  .tarjeta-avatar-b
+    margin-bottom: 1.5rem
+
+.img-bg-01
+  background-image: url("../assets/curso/temas/t1/img-01.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.img-bg-01.tema2
+  background-image: url("../assets/curso/temas/t2/img-01.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.img-bg-09.tema3
+  background-image: url("../assets/curso/temas/t3/img-09.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.img-bg-01.tema4
+  background-image: url("../assets/curso/temas/t4/img-01.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.img-bg-02.tema5
+  background-image: url("../assets/curso/temas/t5/img-02.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.img-bg-01.tema6
+  background-image: url("../assets/curso/temas/t6/img-01.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.img-bg-07.tema7
+  background-image: url("../assets/curso/temas/t7/img-07.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.img-bg-01.tema8
+  background-image: url("../assets/curso/temas/t8/img-01.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.img-bg-09.tema9
+  background-image: url("../assets/curso/temas/t9/img-09.svg") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.recurso-patrimonio
+  width: 100%
+  margin-left: auto !important
+  margin-right: auto !important
+
+  &__img
+    height: 100%
+    min-height: 145px
+    background-color: #C5D3BF
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 1rem
+
+    figure
+      margin: 0 !important
+      width: 100%
+      display: flex
+      justify-content: center
+      align-items: center
+
+      img
+        display: block
+        width: 100%
+        max-width: 120px
+        height: auto
+        margin-left: auto
+        margin-right: auto
+
+  &__texto
+    height: 100%
+    min-height: 145px
+    background-color: #EEF1EA
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 1.5rem
+
+    p
+      width: 100%
+      margin-bottom: 0
+      line-height: 1.45
+
+@media (max-width: 991.98px)
+  .recurso-patrimonio
+    &__img
+      min-height: auto
+      padding: 1.5rem
+
+      img
+        max-width: 115px
+
+    &__texto
+      min-height: auto
+      padding: 1.5rem
+
+@media (max-width: 575.98px)
+  .recurso-patrimonio
+    &__img
+      padding: 1.5rem 1rem
+
+      img
+        max-width: 105px
+
+    &__texto
+      text-align: center
+      padding: 1.3rem
+
+      p
+        font-size: .95rem
+        line-height: 1.45
+
+.figura-flujo-ajuste
+  figure
+    margin-left: 0 !important
+    margin-right: 0 !important
+
+    img
+      display: block
+      width: 100%
+      margin-left: 0 !important
+      margin-right: 0 !important
+
+.BG01
+  position: relative
+  z-index: 1
+  background: none !important
+  margin-inline: 0 !important
+  padding-left: 0 !important
+  padding-right: 0 !important
+
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 50%
+    width: 100vw
+    transform: translateX(-50%)
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(248,255,245,1) 25%, rgba(248,255,245,1) 75%, rgba(255,255,255,1) 100%)
+    z-index: -1
+
+  > [class*="col-"]
+    position: relative
+    z-index: 2
+    transform: translateX(-12px)
+
+.tarjeta.color-primario.video
+  background-color: #E8E8F4 !important
+
+.boton.color-acento-contenido.video, .color-acento-contenido.boton--sm
+  background-color: #4D5198 !important
+
+.tabla-a.color-acento-contenido thead
+  border-color: #F9E7E7 !important
+
+.box___style_1
+  background-color: #EFF1EB
+  padding-right: 1rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    img
+      margin: 0rem !important
+      padding: 0rem !important
+
+.fit___box_container
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem 2rem
+
+.box___style_1
+  background-color: #EFF1EB
+  padding: 0 !important
+  overflow: hidden
+
+  .row
+    margin-left: 0 !important
+    margin-right: 0 !important
+
+  .col-xl-auto
+    padding-left: 0 !important
+    padding-right: 0 !important
+    display: flex
+
+    figure
+      margin: 0 !important
+      width: 100%
+      height: 100%
+      display: flex
+
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        object-position: center
+        display: block
+        margin: 0 !important
+        padding: 0 !important
+
+.fit___box_container
+  padding: 2rem 2.5rem !important
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+@media (max-width: 1400px)
+  .box___style_1--sin-img-console
+    .col-xl-auto
+      display: none !important
+
+    .fit___box_container
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+      padding: 2rem 2.5rem !important
+      
+//- Modulo crd x4 (1)
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2.4rem
+    height: 100%
+    background-image: url("../assets/curso/temas/t3/fondo-1.png")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background-image: url("../assets/curso/temas/t3/fondo-2.png")
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      h5
+        color: $black !important
+      background-repeat: no-repeat
+      background-position: center
+      .bottomCircle
+        &::before
+          background-color: #4D5198
+  &.crd--blue
+    background-color: #69D7E5
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 100px
+    height: 100px
+    background-color: #4D5198
+    border-radius: 999px
+
+//- Modulo medidas imagenes
+.img80
+  width: 80px 
+
+.clr--pink
+  background-color: #FFAFB2
+.clr--pink02
+  background-color: #FFDFE0
+
+.recurso-ley-patrimonio
+  margin-left: 0 !important
+  margin-right: 0 !important
+
+  > [class*="col-"]
+    padding-left: 0 !important
+    padding-right: 0 !important
+
+  &__img
+    height: 100%
+    min-height: 260px
+    background-color: #CFDAC1
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 1.5rem
+
+    figure
+      margin: 0 !important
+      width: 100%
+      height: 100%
+      display: flex
+      align-items: center
+      justify-content: center
+
+      img
+        display: block
+        width: 100%
+        max-width: 300px
+        height: auto
+        margin: 0 !important
+
+  &__texto
+    height: 100%
+    min-height: 260px
+    background-color: #EFF1EB
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 2rem 1.5rem
+
+    p
+      line-height: 1.45
+      margin-bottom: 0
+
+@media (max-width: 991.98px)
+  .recurso-ley-patrimonio
+    > [class*="col-"]
+      padding-left: 0 !important
+      padding-right: 0 !important
+
+    &__img
+      min-height: auto
+      padding: 1.5rem
+
+      img
+        max-width: 250px
+
+    &__texto
+      min-height: auto
+      padding: 1.5rem
+
+@media (max-width: 575.98px)
+  .recurso-ley-patrimonio
+    &__img
+      padding: 1.5rem 1rem
+
+      img
+        max-width: 220px
+
+    &__texto
+      text-align: center
+      padding: 1.3rem
+
+      p
+        font-size: .95rem
+        line-height: 1.45
+
+.recurso-ley-patrimonio--verde
+  .recurso-ley-patrimonio__img
+    background-color: #CCD2C0 !important
+
+  .recurso-ley-patrimonio__texto
+    background-color: #CCD2C0 !important
+
+.BG06
+  background-image: url("../assets/curso/temas/t6/fondo-slyder.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center bottom
+  margin-inline: -3rem !important
+  overflow: hidden
+  padding-top: 0 !important
+  padding-bottom: 0 !important
+
+  .BG06-row
+    max-width: 1140px
+    margin-left: auto !important
+    margin-right: auto !important
+    min-height: 330px
+    padding-top: 0 !important
+    padding-bottom: 0 !important
+
+  .desktop
+    align-self: stretch
+    display: flex !important
+    align-items: flex-end !important
+    margin-bottom: 0 !important
+    padding-bottom: 0 !important
+
+    figure
+      width: 100%
+      height: 100%
+      margin: 0 !important
+      display: flex
+      align-items: flex-end
+      justify-content: center
+
+      img
+        width: 100%
+        max-height: 330px
+        object-fit: contain
+        object-position: bottom center
+        display: block
+        margin-bottom: 0 !important
+
+  .col-lg-8
+    display: flex
+    align-items: center
+    padding-top: 1rem !important
+    padding-bottom: 2rem !important
+
+    .slyder-f
+      width: 100%
+    
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta.bgslyder3
+  background-color: #F8F6EF
+  padding: 1rem
+  margin: 1.5%
+  min-height: 250px
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+@media (min-width: 992px) and (max-width: 1400px)
+  .BG06
+    .BG06-row
+      padding-right: 2rem !important
+
+    .col-lg-8
+      padding-right: 2.5rem !important
+      padding-left: 1rem !important
+      overflow: hidden
+
+      .slyder-f
+        max-width: calc(100% - 1.5rem)
+        margin-left: auto
+        margin-right: auto
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+  .BG06
+    .BG06-row
+      max-width: 960px
+      padding-left: 1.5rem !important
+      padding-right: 1.5rem !important
+
+    .desktop
+      display: none !important
+
+    .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+      padding-left: 2rem !important
+      padding-right: 2rem !important
+      display: flex
+      justify-content: center
+
+      .slyder-f
+        width: 100%
+        max-width: 850px
+        margin-left: auto
+        margin-right: auto
+
+    .tarjeta.bgslyder3
+      min-height: 280px
+      height: 100%
+      padding: 1.5rem 1.25rem !important
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      overflow-wrap: break-word
+      word-break: normal
+
+      p
+        font-size: 1rem
+        line-height: 1.35
+        margin-bottom: 0
+        max-width: 100%
+        text-align: center
+
+      img
+        width: 95px
+        max-width: 95px
+        height: auto
+        margin-left: auto
+        margin-right: auto
+
+@media (max-width: 991.98px)
+  .BG06
+    .desktop
+      display: none !important
+
+    .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+
+    .tarjeta.bgslyder3
+      img
+        width: 70px !important
+        max-width: 70px !important
+        height: auto !important
+        display: block
+        margin-left: auto !important
+        margin-right: auto !important
+
+      .col-7
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-left: auto
+        margin-right: auto
+
+@media (min-width: 1200px)
+  .BG06-cols6
+    .desktop
+      display: flex !important
+      align-items: flex-end !important
+      justify-content: center
+      overflow: visible
+
+      figure
+        width: 100%
+        height: 100%
+        margin: 0 !important
+        display: flex
+        align-items: flex-end
+        justify-content: center
+        overflow: visible
+
+        img
+          width: 118% !important
+          max-width: none !important
+          max-height: 390px !important
+          height: auto !important
+          object-fit: contain
+          object-position: bottom center
+          margin-bottom: 0 !important
+
+@media (min-width: 1200px) and (max-width: 1500px)
+  .BG06-cols6
+    .desktop
+      figure
+        justify-content: center !important
+        overflow: visible
+
+        img
+          width: 118% !important
+          max-height: 390px !important
+          transform: translateX(18px)
+          object-fit: contain
+          object-position: bottom center
+
+@media (min-width: 992px)
+  .BG06
+    .tarjeta.bgslyder3
+      display: grid !important
+      grid-template-rows: 95px auto 1fr !important
+      justify-items: center !important
+      align-items: start !important
+      justify-content: initial !important
+      padding-top: 1.5rem !important
+      padding-bottom: 1.5rem !important
+
+      > .row.justify-content-center.mb-3
+        grid-row: 1
+        width: 100%
+        height: 95px
+        min-height: 95px
+        margin-left: 0 !important
+        margin-right: 0 !important
+        margin-bottom: .5rem !important
+        display: flex !important
+        justify-content: center !important
+        align-items: center !important
+
+        .col-7
+          display: flex !important
+          justify-content: center !important
+          align-items: center !important
+          margin-left: auto !important
+          margin-right: auto !important
+
+          img
+            display: block
+            width: 80px !important
+            max-width: 80px !important
+            height: auto !important
+            margin-left: auto !important
+            margin-right: auto !important
+
+      > h4
+        grid-row: 2
+        width: 100%
+        margin-bottom: .75rem !important
+        text-align: center
+        align-self: start
+
+      > p
+        grid-row: 3
+        align-self: start
+        width: 100%
+        margin-bottom: 0 !important
+        text-align: center
+
+.slyder-f__btn i
+  color: #2D5897 !important
+
+// Fondo Slyder x3
+
+.BG06-t6
+  background-size: 100% 100% !important
+  background-position: center center !important
+  min-height: 360px
+  padding-top: 0 !important
+  padding-bottom: 0 !important
+
+  .BG06-row
+    min-height: 360px
+    align-items: center !important
+
+  .desktop
+    align-self: stretch
+    display: flex !important
+    align-items: flex-end !important
+    justify-content: center
+    overflow: visible
+
+    figure
+      width: 100%
+      height: 100%
+      margin: 0 !important
+      display: flex
+      align-items: flex-end
+      justify-content: center
+      overflow: visible
+
+      img
+        width: 112% !important
+        max-width: none !important
+        max-height: 365px !important
+        height: auto !important
+        object-fit: contain
+        object-position: bottom center
+        margin-bottom: 0 !important
+
+  .col-lg-8
+    padding-top: 1rem !important
+    padding-bottom: 1rem !important
+    display: flex
+    align-items: center
+
+    .slyder-f
+      width: 100%
+      max-width: 780px
+      margin-left: auto
+      margin-right: auto
+
+  .tarjeta.bgslyder3
+    min-height: 270px !important
+    max-height: 270px
+    padding: 1.3rem 1.1rem !important
+    display: grid !important
+    grid-template-rows: 88px auto 1fr !important
+    justify-items: center !important
+    align-items: start !important
+
+    > .row.justify-content-center.mb-3
+      grid-row: 1
+      width: 100%
+      height: 88px
+      min-height: 88px
+      margin-left: 0 !important
+      margin-right: 0 !important
+      margin-bottom: .7rem !important
+      display: flex !important
+      justify-content: center !important
+      align-items: center !important
+
+      .col-7
+        width: auto !important
+        max-width: none !important
+        flex: 0 0 auto !important
+        display: flex !important
+        justify-content: center !important
+        align-items: center !important
+        margin-left: auto !important
+        margin-right: auto !important
+
+        img
+          display: block
+          width: 82px !important
+          max-width: 82px !important
+          height: auto !important
+          margin-left: auto !important
+          margin-right: auto !important
+
+    > h5
+      grid-row: 2
+      width: 100%
+      margin-bottom: .8rem !important
+      text-align: center
+      line-height: 1.15
+      font-weight: 700
+
+    > p
+      grid-row: 3
+      width: 100%
+      margin-bottom: 0 !important
+      text-align: center
+      line-height: 1.35
+
+@media (min-width: 992px) and (max-width: 1400px)
+  .BG06-t6
+    min-height: 340px
+
+    .BG06-row
+      min-height: 340px
+      padding-right: 1rem !important
+
+    .desktop
+      figure
+        img
+          width: 120% !important
+          max-height: 350px !important
+          transform: translateX(8px)
+
+    .col-lg-8
+      padding-left: .5rem !important
+      padding-right: 1.5rem !important
+
+      .slyder-f
+        max-width: 760px
+
+    .tarjeta.bgslyder3
+      min-height: 250px !important
+      max-height: 250px
+      grid-template-rows: 78px auto 1fr !important
+
+      > .row.justify-content-center.mb-3
+        height: 78px
+        min-height: 78px
+
+        .col-7
+          img
+            width: 74px !important
+            max-width: 74px !important
+
+.BG06-t6
+  .tarjeta.bgslyder3
+    > h5
+      margin-top: .7rem !important
+      margin-bottom: .8rem !important
+
+@media (max-width: 1400px)
+  .BG06-t6
+    .desktop
+      display: none !important
+
+    .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+      padding-left: 2rem !important
+      padding-right: 2rem !important
+      display: flex !important
+      justify-content: center !important
+      align-items: center !important
+
+      .slyder-f
+        width: 100%
+        max-width: 850px
+        margin-left: auto
+        margin-right: auto
+
+@media (max-width: 991.98px)
+  .BG06-t6
+    .desktop
+      display: none !important
+
+    .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+      padding-left: 1.5rem !important
+      padding-right: 1.5rem !important
+
+.recurso-c10-ajuste
+  overflow: hidden
+
+  > [class*="col-"]
+    padding-left: 0 !important
+    padding-right: 0 !important
+
+  > .col-lg-5
+    figure
+      margin: 0 !important
+      height: 100%
+
+      img
+        display: block
+        width: 100%
+        height: 100%
+        object-fit: cover
+        object-position: center
+        margin: 0 !important
+
+  .cajon.C10
+    background-color: #EFF1EB
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    border-radius: 0 !important
+    margin-left: -1px !important
+
+@media (min-width: 1200px) and (max-width: 1500px)
+  .recurso-c10-ajuste
+    max-width: 1050px
+    margin-left: auto !important
+    margin-right: auto !important
+
+    .cajon.C10
+      padding: 2rem !important
+
+      p
+        font-size: .96rem
+        line-height: 1.45
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+  .recurso-c10-ajuste
+    max-width: 920px
+    margin-left: auto !important
+    margin-right: auto !important
+
+    > .col-lg-5
+      display: none !important
+
+    > .col-lg-7
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+
+    .cajon.C10
+      margin-left: 0 !important
+      padding: 2rem !important
+      min-height: auto !important
+
+      p
+        font-size: 1rem
+        line-height: 1.45
+
+//- Ajuste recurso c10-ajuste
+
+.c10-icono-arriba
+  justify-content: center !important
+
+  .row.mb-0
+    width: 100%
+    flex-direction: column !important
+    justify-content: center !important
+    align-items: flex-start !important
+    margin-left: 0 !important
+    margin-right: 0 !important
+
+    .col-lg-2
+      width: 100% !important
+      max-width: 100% !important
+      flex: 0 0 auto !important
+      padding-left: 0 !important
+      padding-right: 0 !important
+      margin-bottom: 1rem !important
+
+      figure
+        margin: 0 !important
+
+        img
+          display: block
+          width: 80px !important
+          max-width: 80px !important
+          height: auto !important
+          margin: 0 !important
+
+    .col-lg-10
+      width: 100% !important
+      max-width: 100% !important
+      flex: 0 0 auto !important
+      padding-left: 0 !important
+      padding-right: 0 !important
+
+.tarjeta--C01
+  background-image: url('../assets/curso/temas/t6/fondo-tarjeta.png')
+  background-repeat: no-repeat;     
+  background-position: center;      
+  background-size: cover;
+
+.tarjeta.color-primario.cafe
+  background-color: #E5DFCA
+
+.tarjeta.color-acento-botones.verde
+  background-color: #CCD2C0
+
+//- Listas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+.recurso-ley-patrimonio--tema8
+  .recurso-ley-patrimonio__img
+    background-color: transparent !important
+    padding: 0 !important
+
+    figure
+      margin: 0 !important
+      width: 100%
+      height: 100%
+
+      img
+        width: 100% !important
+        max-width: none !important
+        height: 100% !important
+        object-fit: cover
+        display: block
+        margin: 0 !important
+
+  .recurso-ley-patrimonio__texto
+    background-color: #F4F1E9 !important
+
+.recurso-contenidos-digitales
+  background-color: #F4F1E9
+  width: 100%
+
+  > .row
+    margin-left: 0 !important
+    margin-right: 0 !important
+
+  &__texto
+    min-height: 300px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 2rem 2rem 2rem 2.5rem
+
+    p
+      line-height: 1.45
+      margin-bottom: 0
+
+  &__img
+    min-height: 300px
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 1rem 1.5rem 1rem 0
+
+    figure
+      width: 100%
+      margin: 0 !important
+      display: flex
+      align-items: center
+      justify-content: center
+
+      img
+        display: block
+        width: 100%
+        max-width: 260px
+        height: auto
+        margin: 0 auto !important
+
+@media (max-width: 991.98px)
+  .recurso-contenidos-digitales
+    &__texto
+      min-height: auto
+      padding: 1.8rem 1.8rem 1rem
+
+    &__img
+      min-height: auto
+      padding: 0 1.5rem 1.8rem
+
+      figure
+        img
+          max-width: 230px
+
+@media (max-width: 575.98px)
+  .recurso-contenidos-digitales
+    &__texto
+      text-align: center
+      padding: 1.5rem 1.3rem 1rem
+
+      p
+        font-size: .95rem
+        line-height: 1.45
+
+    &__img
+      padding: 0 1rem 1.5rem
+
+      figure
+        img
+          max-width: 200px
+
+//- Código pasosb
+.tarjeta--BG02
+  background-image: url("../assets/curso/temas/t9/fondo-pasos.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.linea-tiempo-c__header__btn, .pasos-b__header__btn--left, .pasos-b__header__btn--right, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: #4D5198
+  color: #ffff !important
+  border: none !important
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  background-color: #EEBABA
+  border-color: #EEBABA
+
+.pasos-b__header__item__dot i
+  color: #000 !important
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #9D9D9D
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+
+.pasos-b.color-acento-botones .pasos-b__header__item--active .pasos-b__header__item__dot span
+  color: #fff
+
+.pasos-b__header__item__dot
+  border: 3px solid #144567
+  
+.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
+  color: #fff
+
+.img-infografica.color-acento-botones .img-infografica__item__dot:before, .img-infografica.color-acento-botones .img-infografica__item__dot:after, .img-infografica.color-acento-botones .img-infografica-b__item__dot:before, .img-infografica.color-acento-botones .img-infografica-b__item__dot:after, .img-infografica-b.color-acento-botones .img-infografica__item__dot:before, .img-infografica-b.color-acento-botones .img-infografica__item__dot:after, .img-infografica-b.color-acento-botones .img-infografica-b__item__dot:before, .img-infografica-b.color-acento-botones .img-infografica-b__item__dot:after
+  background-color: #4D5198 !important
+
+@media (max-width: 1400px)
+  .recurso-patrimonio--sin-img-console
+    > .col-lg-2
+      display: none !important
+
+    > .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+
+    .recurso-patrimonio__texto
+      min-height: auto
+      padding: 1.5rem 2rem
+
+.podcast-recurso
+  width: 100%
+  background-color: #E5DFCA
+  border-radius: 40px 40px 0 0
+  margin-top: 5rem
+  position: relative
+  padding: 7rem 2rem 2rem
+
+  &__imagen
+    position: absolute
+    top: -95px
+    left: 50%
+    transform: translateX(-50%)
+    z-index: 2
+    width: 430px
+    max-width: 80%
+
+    img
+      display: block
+      width: 100%
+      height: auto
+      margin: 0 auto
+
+  &__contenido
+    background-color: #fff
+    border-radius: 40px
+    padding: 1rem 1.4rem
+
+  &__audio
+    display: grid
+    grid-template-columns: 1fr auto
+    grid-template-areas: "titulo boton" "barra boton" "tiempos boton"
+    align-items: center
+    column-gap: 1rem
+    border: none !important
+    padding: 0 !important
+
+  &__info
+    grid-area: titulo
+
+    h5
+      color: #12263F
+      font-weight: 700
+      font-style: italic
+      margin-bottom: .3rem !important
+
+    span
+      display: none
+
+  &__barra
+    grid-area: barra
+    position: relative
+    height: 7px
+    background-color: #E8E8F4
+    border-radius: 20px
+    cursor: pointer
+    overflow: visible
+
+  &__progreso
+    height: 100%
+    width: 0
+    background-color: #4D5198
+    border-radius: 20px
+    position: relative
+    transition: width .1s linear
+
+    &::after
+      content: ''
+      position: absolute
+      right: -6px
+      top: 50%
+      transform: translateY(-50%)
+      width: 14px
+      height: 14px
+      border-radius: 50%
+      background-color: #4D5198
+
+    &__tiempos
+        grid-area: tiempos
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: .25rem
+        font-weight: 700
+        color: #12263F
+
+  &__boton
+    grid-area: boton
+    width: 44px
+    height: 44px
+    border-radius: 50%
+    border: none
+    background-color: #4D5198
+    display: flex
+    align-items: center
+    justify-content: center
+    cursor: pointer
+
+    i
+      color: #fff
+      font-size: 1.2rem
+
+@media (max-width: 991.98px)
+  .podcast-recurso
+    margin-top: 4rem
+    padding: 6rem 1.5rem 1.5rem
+
+    &__imagen
+      width: 360px
+      top: -80px
+
+    &__audio
+      grid-template-columns: 1fr auto
+      gap: .8rem
+
+    &__info
+      grid-column: 1 / -1
+
+@media (max-width: 575.98px)
+  .podcast-recurso
+    margin-top: 3.5rem
+    padding: 5rem 1rem 1rem
+    border-radius: 28px 28px 0 0
+
+    &__imagen
+      width: 280px
+      top: -65px
+
+    &__contenido
+      padding: 1rem
+
+    &__audio
+      grid-template-columns: 1fr auto
+      padding: .8rem
+
+    &__boton
+      width: 42px
+      height: 42px
+
+.podcast-recurso
+  width: 100%
+  min-height: 290px
+  background: linear-gradient(180deg, #CCD2C0 0%, #CCD2C0 45%, #E8E2CC 45%, #E8E2CC 100%) !important
+  border-radius: 40px 40px 0 0
+  position: relative
+  margin-top: 6rem
+  padding: 7.2rem 1.5rem 1.6rem !important
+  overflow: visible
+
+  &__imagen
+    position: absolute
+    top: -105px
+    left: 50%
+    transform: translateX(-50%)
+    width: 520px
+    max-width: 75%
+    z-index: 3
+
+    img
+      display: block
+      width: 100%
+      height: auto
+      margin: 0 auto
+
+  &__contenido
+    width: 92%
+    margin-left: auto
+    margin-right: auto
+    background-color: #FFFFFF !important
+    border-radius: 18px
+    padding: 1.35rem 1.6rem !important
+    position: relative
+    z-index: 2
+
+  &__audio
+    min-height: 72px
+
+.podcast-recurso
+  &__audio
+    min-height: 78px
+    display: grid
+    grid-template-columns: 1fr auto
+    grid-template-areas: "titulo boton" "barra boton"
+    align-items: center
+    column-gap: 1rem
+    border: 3px solid #4D5198 !important
+    border-radius: 35px !important
+    padding: .8rem 1.2rem !important
+
+  &__info
+    grid-area: titulo
+
+    h5
+      margin-bottom: .35rem !important
+      font-style: italic
+      font-weight: 700
+      color: #12263F
+
+  &__barra
+    grid-area: barra
+    height: 7px
+    background-color: #E7E5F5
+    border-radius: 20px
+    position: relative
+    overflow: visible
+
+  &__progreso
+    height: 100%
+    background-color: #4D5198
+    border-radius: 20px
+    position: relative
+
+    &::after
+      content: ''
+      position: absolute
+      right: -7px
+      top: 50%
+      transform: translateY(-50%)
+      width: 15px
+      height: 15px
+      border-radius: 50%
+      background-color: #4D5198
+
+  &__boton
+    grid-area: boton
+    width: 48px
+    height: 48px
+    border-radius: 50%
+    background-color: #4D5198 !important
+    border: none
+    display: flex
+    align-items: center
+    justify-content: center
+
+    i
+      color: #FFFFFF !important
+
+.podcast-recurso
+  min-height: 360px
+  padding: 8.2rem 1.5rem 2.5rem !important
+
+  &__imagen
+    width: 420px !important
+    max-width: 50% !important
+    top: -92px !important
+
+  &__contenido
+    width: 88% !important
+    margin-top: 1.8rem !important
+    padding: 1.35rem 1.6rem !important
+
+@media (max-width: 991.98px)
+  .podcast-recurso
+    padding: 7.5rem 1.2rem 2rem !important
+
+    &__imagen
+      width: 340px !important
+      max-width: 55% !important
+      top: -75px !important
+
+    &__contenido
+      width: 92% !important
+      margin-top: 1.5rem !important
+
+@media (max-width: 575.98px)
+  .podcast-recurso
+    min-height: 270px !important
+    padding: 7rem 1.5rem 1.3rem !important
+
+    &__imagen
+      width: 260px !important
+      max-width: 70% !important
+      top: -58px !important
+
+    &__contenido
+      width: 100% !important
+      margin-top: 1rem !important
+
+.podcast-recurso.podcast-recurso--final
+  height: 300px !important
+  min-height: 300px !important
+  max-height: 300px !important
+  background: linear-gradient(180deg, #CCD2C0 0%, #CCD2C0 50%, #E8E2CC 50%, #E8E2CC 100%) !important
+  border-radius: 40px 40px 0 0 !important
+  position: relative !important
+  margin-top: 6rem !important
+  padding: 0 !important
+  overflow: visible !important
+
+  .podcast-recurso__imagen
+    position: absolute !important
+    top: -92px !important
+    left: 50% !important
+    transform: translateX(-50%) !important
+    width: 420px !important
+    max-width: 50% !important
+    z-index: 3 !important
+
+    img
+      width: 100% !important
+      height: auto !important
+      display: block !important
+      margin: 0 auto !important
+
+  .podcast-recurso__contenido
+    position: absolute !important
+    left: 50% !important
+    bottom: 25px !important
+    transform: translateX(-50%) !important
+    width: 82% !important
+    background-color: #FFFFFF !important
+    border-radius: 18px !important
+    padding: 1.3rem 1.6rem !important
+    z-index: 2 !important
+    margin: 0 !important
+
+  .podcast-recurso__audio
+    min-height: 78px !important
+
+.podcast-recurso.podcast-recurso--final
+  background: linear-gradient(180deg, #CCD2C0 0%, #CCD2C0 43%, #E8E2CC 43%, #E8E2CC 100%) !important
+
+  .podcast-recurso__contenido
+    width: 92% !important
+
+@media (min-width: 992px) and (max-width: 1400px)
+  .podcast-recurso.podcast-recurso--final
+    .podcast-recurso__imagen
+      top: -20px !important
+      width: 360px !important
+      max-width: 48% !important
+
+@media (max-width: 991.98px)
+  .podcast-recurso.podcast-recurso--final
+    margin-top: 4.5rem !important
+
+    .podcast-recurso__imagen
+      top: -35px !important
+      width: 320px !important
+      max-width: 70% !important
+
+@media (max-width: 575.98px)
+  .podcast-recurso.podcast-recurso--final
+    margin-top: 3.8rem !important
+
+    .podcast-recurso__imagen
+      top: -25px !important
+      width: 260px !important
+      max-width: 78% !important
+
+@media (max-width: 425px)
+  .podcast-recurso.podcast-recurso--final
+    margin-top: 3.5rem !important
+
+    .podcast-recurso__imagen
+      top: -18px !important
+      width: 235px !important
+      max-width: 82% !important
+
+@media (max-width: 375px)
+  .podcast-recurso.podcast-recurso--final
+    margin-top: 3.2rem !important
+
+    .podcast-recurso__imagen
+      top: -12px !important
+      width: 215px !important
+      max-width: 85% !important
+
+/* Ajuste responsive específico imagen pódcast */
+@media (min-width: 768px) and (max-width: 991.98px)
+  .podcast-recurso.podcast-recurso--final
+    .podcast-recurso__imagen
+      top: -55px !important
+      width: 340px !important
+      max-width: 62% !important
+
+@media (min-width: 426px) and (max-width: 767.98px)
+  .podcast-recurso.podcast-recurso--final
+    .podcast-recurso__imagen
+      top: -35px !important
+      width: 280px !important
+      max-width: 75% !important
+      transform: translate(-50%, 12px) !important
+
+@media (max-width: 425px)
+  .podcast-recurso.podcast-recurso--final
+    .podcast-recurso__imagen
+      top: -25px !important
+      width: 260px !important
+      max-width: 82% !important
+      transform: translate(-50%, 24px) !important
+
+@media (max-width: 375px)
+  .podcast-recurso.podcast-recurso--final
+    .podcast-recurso__imagen
+      top: -18px !important
+      width: 245px !important
+      max-width: 85% !important
+      
+@media (max-width: 1400px)
+  .recurso-ley-patrimonio--sin-img-console
+    > .col-lg-4
+      display: none !important
+
+    > .col-lg-6
+      flex: 0 0 83.333333% !important
+      max-width: 83.333333% !important
+      width: 83.333333% !important
+
+@media (max-width: 1400px)
+  .recurso-ley-patrimonio--verde-sin-img-console
+    > .col-lg-3
+      display: none !important
+
+    > .col-lg-7
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+
+@media (max-width: 1400px)
+  .recurso-ley-patrimonio--t6-sin-img-console
+    > .col-lg-4
+      display: none !important
+
+    > .col-lg-6
+      flex: 0 0 83.333333% !important
+      max-width: 83.333333% !important
+      width: 83.333333% !important
+
+@media (max-width: 1400px)
+  .recurso-c10-ajuste--sin-img-console
+    > .col-lg-4
+      display: none !important
+
+    > .col-lg-6
+      flex: 0 0 83.333333% !important
+      max-width: 83.333333% !important
+      width: 83.333333% !important
+
+      .cajon.C10
+        margin-left: 0 !important
+
+        .row
+          justify-content: center
+
+        .col-lg-10
+          flex: 0 0 100% !important
+          max-width: 100% !important
+
+.recurso-ley-patrimonio--t7-color
+  .recurso-ley-patrimonio__img
+    background-color: #EFE6C8 !important
+
+  .recurso-ley-patrimonio__texto
+    background-color: #EFE6C8 !important
+
+@media (max-width: 1400px)
+  .recurso-contenidos-digitales--sin-img-console
+    > .row
+      justify-content: center !important
+
+      > .col-lg-4
+        display: none !important
+
+      > .col-lg-8
+        flex: 0 0 100% !important
+        max-width: 100% !important
+        width: 100% !important
+
+    .recurso-contenidos-digitales__texto
+      width: 100% !important
+      padding: 2rem 2.5rem !important
 
 
 

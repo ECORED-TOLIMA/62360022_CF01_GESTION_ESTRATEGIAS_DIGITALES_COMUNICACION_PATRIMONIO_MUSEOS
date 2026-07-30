@@ -19,416 +19,696 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Reconocimiento de conceptos sobre patrimonio cultural y comunicación digital.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Fortalecer los conocimientos relacionados con el patrimonio cultural, los museos y la comunicación responsable del patrimonio en entornos físicos y digitales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué se entiende por patrimonio cultural?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Conjunto de bienes y manifestaciones que tienen valor cultural para una comunidad.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Únicamente los monumentos históricos de un país.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Los recursos económicos destinados a la cultura.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Los edificios modernos construidos por el Estado.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que el patrimonio cultural reúne los bienes y manifestaciones con valor para una comunidad.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de los siguientes elementos pertenece al patrimonio cultural inmaterial?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Una escultura antigua.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Una colección de fósiles.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Una tradición oral transmitida entre generaciones.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Un edificio patrimonial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que las tradiciones orales forman parte del patrimonio cultural inmaterial.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué función cumplen los museos en la sociedad?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Vender bienes culturales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: 'Conservar y comunicar el patrimonio cultural.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto:
+                'Almacenar objetos históricos y arqueológicos sin clasificarlos ni documentarlos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Restringir el acceso a la información histórica.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que los museos conservan y comunican el patrimonio cultural.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué aspecto fortalece el patrimonio cultural en las comunidades?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La competencia comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La producción industrial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El sentido de pertenencia e identidad cultural.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La privatización de los bienes culturales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que el patrimonio cultural fortalece el sentido de pertenencia y la identidad cultural.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué caracteriza a la comunicación bidireccional en entornos digitales?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La transmisión de información desde la institución hacia el público sin posibilidad de respuesta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El intercambio entre instituciones y públicos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La publicación exclusiva de contenidos impresos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La eliminación de los espacios de conversación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que la comunicación bidireccional permite el intercambio entre las instituciones y los públicos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es una responsabilidad ética en la comunicación del patrimonio cultural?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Difundir contenidos respetando la diversidad cultural.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Modificar relatos históricos para hacerlos más atractivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Compartir información sensible sobre bienes patrimoniales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Publicar información sin verificar su contexto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que la comunicación del patrimonio debe respetar la diversidad cultural.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 7,
+          texto: '¿Qué es un ecosistema digital en el ámbito cultural?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un conjunto de normas para proteger el patrimonio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Una colección física de bienes culturales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Una red de plataformas, herramientas y actores.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un espacio destinado únicamente al almacenamiento de información.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que un ecosistema digital integra plataformas, herramientas y actores que interactúan alrededor de contenidos culturales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto: '¿Cuál es el propósito de la caracterización de públicos?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Clasificar visitantes según su edad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Identificar intereses y necesidades del público.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Limitar el acceso a determinados grupos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir los procesos de comunicación institucional.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que la caracterización de públicos permite identificar sus intereses, necesidades y formas de relación con los contenidos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué permite una adecuada planeación de contenidos culturales?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Publicar información sin definir objetivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir la circulación de contenidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar el uso de medios digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Organizar contenidos de forma coherente.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que la planeación de contenidos organiza los temas, formatos y canales de manera coherente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto: '¿Qué caracteriza una narrativa transmedia?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La difusión de un mismo contenido en un único medio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La presentación de información exclusivamente mediante texto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La construcción de un relato a través de múltiples plataformas y formatos. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La publicación simultánea de contenidos sin relación temática.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que una narrativa transmedia desarrolla un relato a través de múltiples plataformas y formatos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 11,
+          texto: '¿Qué es la memoria colectiva?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                ' El conjunto de recuerdos, experiencias y significados compartidos por una comunidad.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+                'La recopilación organizada de documentos históricos conservados en bibliotecas y archivos especializados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'La información publicada únicamente en redes sociales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Los registros económicos de una institución cultural.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que la memoria colectiva corresponde al conjunto de recuerdos y significados compartidos por una comunidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué favorece la apropiación comunitaria del patrimonio cultural?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La exclusión de la comunidad en las decisiones culturales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La participación de las comunidades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La comercialización de todos los bienes culturales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El acceso restringido a la información histórica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que la apropiación comunitaria promueve la participación de las comunidades en la valoración y cuidado del patrimonio.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto: '¿Qué caracteriza una comunidad virtual?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Un grupo de personas que solo interactúa presencialmente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Una organización dedicada exclusivamente a la venta de contenidos digitales.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto:
+                'Un conjunto de personas que interactúa en entornos digitales alrededor de intereses comunes.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto:
+                'Un espacio destinado únicamente a la publicidad institucional.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que una comunidad virtual está conformada por personas que interactúan en entornos digitales alrededor de intereses comunes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué permite la interacción digital en los procesos de comunicación cultural?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Limitar la participación del público.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Eliminar los procesos de divulgación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir el patrimonio cultural.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Establecer diálogo e intercambio entre instituciones y audiencias.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que la interacción digital favorece el diálogo y el intercambio entre instituciones y audiencias.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Cuál es el propósito principal de los derechos de autor?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Regular los horarios y condiciones de publicación de contenidos en medios digitales institucionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Proteger las creaciones intelectuales y reconocer la autoría de las obras.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Restringir el acceso a la cultura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Controlar las redes sociales institucionales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que los derechos de autor protegen las creaciones intelectuales y reconocen su autoría.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué principio debe respetarse al utilizar fotografías de personas en contenidos digitales?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La publicación sin autorización previa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La libre circulación de imágenes en internet.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El uso obligatorio de filtros digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La protección de datos personales y el consentimiento informado.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que el uso de fotografías debe respetar la protección de datos personales y el consentimiento informado.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Por qué es importante considerar el contexto sociocultural al comunicar el patrimonio?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Porque permite comprender y respetar el significado cultural de los contenidos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Porque permite reemplazar completamente los procesos de investigación histórica y documental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Porque reduce la participación ciudadana.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque elimina la necesidad de planear contenidos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que el contexto sociocultural permite comprender y respetar el significado del patrimonio cultural.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál de los siguientes es un ejemplo de canal digital para divulgar patrimonio cultural?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Una carretera nacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Una sala de almacenamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Una red social institucional o un sitio <em>web</em> cultural.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Un archivo físico cerrado al público.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que las redes sociales institucionales y los sitios web son canales digitales para divulgar el patrimonio cultural.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué busca una estrategia de comunicación digital?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Organizar objetivos, mensajes, públicos y canales para comunicar de forma efectiva.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Publicar contenidos de manera permanente sin realizar una planificación previa de objetivos y públicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir los contenidos culturales por contenido comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar la interacción con las audiencias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha identificado que una estrategia de comunicación digital organiza objetivos, mensajes, públicos y canales para comunicar de forma efectiva.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué aspecto debe considerarse al divulgar patrimonio cultural en entornos digitales?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La cantidad de publicaciones realizadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El número de seguidores obtenidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El respeto por los valores culturales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El uso exclusivo de contenidos audiovisuales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Ha reconocido que la divulgación del patrimonio cultural en entornos digitales debe respetar los valores culturales, la diversidad y la normatividad vigente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
     parrafo: {
       tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
