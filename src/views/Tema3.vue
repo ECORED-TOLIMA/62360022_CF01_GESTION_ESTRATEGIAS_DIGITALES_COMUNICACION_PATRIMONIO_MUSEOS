@@ -168,7 +168,7 @@
           .podcast-recurso__contenido
             .podcast-recurso__audio
               .podcast-recurso__info
-                h5.mb-1 Pódcast
+                h5.mb-1 Apropiación comunitaria del patrimonio cultural
                 span {{ tiempoActual }} / {{ duracionAudio }}
 
               .podcast-recurso__barra(@click="cambiarTiempoAudio")

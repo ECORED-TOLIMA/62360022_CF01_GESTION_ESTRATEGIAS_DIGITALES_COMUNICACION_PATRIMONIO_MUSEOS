@@ -16,7 +16,7 @@
 
     .row.justify-content-center
       .col.col-lg-10.col-12
-        p La comunicación cultural en entornos digitales también busca mantener el interés de las personas y promover una relación continua con las iniciativas de una institución. Esto hace que el concepto de engagement, entendido como el nivel de interés, participación y compromiso que las audiencias desarrollan frente a una institución, una temática o una propuesta cultural adquiera mayor relevancia. Este vínculo puede manifestarse mediante la consulta frecuente de contenidos, la participación en actividades, el intercambio de experiencias o la colaboración en proyectos relacionados con el patrimonio.
+        p La comunicación cultural en entornos digitales también busca mantener el interés de las personas y promover una relación continua con las iniciativas de una institución. Esto hace que el concepto de #[i engagement], entendido como el nivel de interés, participación y compromiso que las audiencias desarrollan frente a una institución, una temática o una propuesta cultural adquiera mayor relevancia. Este vínculo puede manifestarse mediante la consulta frecuente de contenidos, la participación en actividades, el intercambio de experiencias o la colaboración en proyectos relacionados con el patrimonio.
 
     .row.justify-content-center
       .col.col-lg-10.col-12

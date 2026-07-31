@@ -12,7 +12,7 @@
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")(style="background-color: #E5DFCA !important")
       .bloque-texto-g__img.img-bg-01.tema6
       .bloque-texto-g__texto.p-4
-        p.mb-0(data-aos="fade-down") La evolución de los entornos digitales ha modificado las formas en que las instituciones culturales comparten conocimiento y establecen vínculos con la ciudadanía. A diferencia de los canales tradicionales, centrados principalmente en exposiciones físicas y publicaciones impresas, las herramientas digitales permiten difundir información a mayor escala y ofrecer experiencias de consulta más dinámicas. Entre los recursos más utilizados se encuentran los sitios web, las redes sociales, los recorridos virtuales, los materiales audiovisuales y las aplicaciones interactivas, que contribuyen a acercar el patrimonio a comunidades ubicadas en distintos contextos geográficos.
+        p.mb-0(data-aos="fade-down") La evolución de los entornos digitales ha modificado las formas en que las instituciones culturales comparten conocimiento y establecen vínculos con la ciudadanía. A diferencia de los canales tradicionales, centrados principalmente en exposiciones físicas y publicaciones impresas, las herramientas digitales permiten difundir información a mayor escala y ofrecer experiencias de consulta más dinámicas. Entre los recursos más utilizados se encuentran los sitios #[i web], las redes sociales, los recorridos virtuales, los materiales audiovisuales y las aplicaciones interactivas, que contribuyen a acercar el patrimonio a comunidades ubicadas en distintos contextos geográficos.
 
     .row.justify-content-center
       .col.col-lg-10.col-12
@@ -30,7 +30,7 @@
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/t6/img-02.svg", alt="alt")
-              h5.text-center Sitio web institucional
+              h5.text-center Sitio #[i web] institucional
               p.text-center Publicar información permanente y recursos de consulta.
             .tarjeta.bgslyder3.p-4
               .row.justify-content-center.mb-3
@@ -42,7 +42,7 @@
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/t6/img-04.svg", alt="alt")
-              h5.text-center Blogs
+              h5.text-center #[i Blogs]
               p.text-center Desarrollar contenidos especializados o educativos.
             .tarjeta.bgslyder3.p-4
               .row.justify-content-center.mb-3
@@ -78,7 +78,7 @@
 
       .col-lg-6.col-md-7.col-12
         .recurso-ley-patrimonio__texto
-          p.mb-0 Entre los más utilizados se encuentran los sitios web institucionales, las redes sociales, los blogs, las plataformas de video, los boletines electrónicos y los recorridos virtuales. Cada uno cumple funciones particulares dentro de la estrategia de comunicación de una organización. Algunos están orientados a ofrecer información permanente y recursos de consulta, mientras otros propician la difusión de novedades, actividades y acontecimientos de interés para los públicos.
+          p.mb-0 Entre los más utilizados se encuentran los sitios #[i web] institucionales, las redes sociales, los #[i blogs], las plataformas de video, los boletines electrónicos y los recorridos virtuales. Cada uno cumple funciones particulares dentro de la estrategia de comunicación de una organización. Algunos están orientados a ofrecer información permanente y recursos de consulta, mientras otros propician la difusión de novedades, actividades y acontecimientos de interés para los públicos.
 
     .row.justify-content-center
       .col.col-lg-10.col-12
@@ -143,7 +143,7 @@
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/t6/img-14.svg' alt='')
-          h4.text-center Sitio web institucional
+          h4.text-center Sitio #[i web] institucional
           p Es el medio digital oficial mediante el cual las instituciones publican información, recursos y contenidos relacionados con el patrimonio cultural y sus actividades.
         .tarjeta.tarjeta--C01.p-4
           .row.justify-content-center.mb-3

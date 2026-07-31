@@ -29,7 +29,7 @@
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")(style="background-color: #E5DFCA !important")
       .bloque-texto-g__img.img-bg-02.tema5
       .bloque-texto-g__texto.p-4
-        p.mb-0(data-aos="fade-down") En el ámbito de la divulgación patrimonial, es importante comprender que la custodia física de un bien cultural no implica necesariamente la titularidad de los derechos relacionados con su reproducción, distribución o comunicación pública. Por esta razón, antes de compartir contenidos en exposiciones, publicaciones, sitios web, redes sociales o plataformas digitales, es necesario verificar las condiciones de uso, identificar la autoría y respetar las restricciones o permisos establecidos para cada obra. Por lo tanto, la correcta citación de las fuentes y el reconocimiento de los creadores contribuyen a mantener la transparencia y la confianza en los procesos de gestión cultural.
+        p.mb-0(data-aos="fade-down") En el ámbito de la divulgación patrimonial, es importante comprender que la custodia física de un bien cultural no implica necesariamente la titularidad de los derechos relacionados con su reproducción, distribución o comunicación pública. Por esta razón, antes de compartir contenidos en exposiciones, publicaciones, sitios #[i web], redes sociales o plataformas digitales, es necesario verificar las condiciones de uso, identificar la autoría y respetar las restricciones o permisos establecidos para cada obra. Por lo tanto, la correcta citación de las fuentes y el reconocimiento de los creadores contribuyen a mantener la transparencia y la confianza en los procesos de gestión cultural.
 
     .row.justify-content-center
       .col.col-lg-10.col-12

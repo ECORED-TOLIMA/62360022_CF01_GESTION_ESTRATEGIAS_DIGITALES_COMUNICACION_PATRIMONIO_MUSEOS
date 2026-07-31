@@ -14,7 +14,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
         .cajon.cajon.C01.color-secundario.px-4.py-3
-          p.mb-0 La incorporación de tecnologías digitales ha ampliado las posibilidades de acceso, circulación y apropiación de los contenidos culturales. Sitios web, redes sociales, recorridos virtuales y recursos multimedia permiten acercar el patrimonio a nuevos públicos y generar formas de interacción que complementan la experiencia presencial. Estos escenarios también plantean desafíos relacionados con la interpretación adecuada de los contenidos, el respeto por la diversidad cultural y el cumplimiento de criterios éticos y legales.
+          p.mb-0 La incorporación de tecnologías digitales ha ampliado las posibilidades de acceso, circulación y apropiación de los contenidos culturales. Sitios #[i web], redes sociales, recorridos virtuales y recursos multimedia permiten acercar el patrimonio a nuevos públicos y generar formas de interacción que complementan la experiencia presencial. Estos escenarios también plantean desafíos relacionados con la interpretación adecuada de los contenidos, el respeto por la diversidad cultural y el cumplimiento de criterios éticos y legales.
 
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block

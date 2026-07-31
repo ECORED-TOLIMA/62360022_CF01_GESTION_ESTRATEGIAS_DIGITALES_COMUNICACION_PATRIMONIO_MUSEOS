@@ -22,7 +22,7 @@ export default {
       tema: 'Reconocimiento de conceptos sobre patrimonio cultural y comunicación digital.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Fortalecer los conocimientos relacionados con el patrimonio cultural, los museos y la comunicación responsable del patrimonio en entornos físicos y digitales.',
+        '<b> Objetivo:</b> fortalecer los conocimientos relacionados con el patrimonio cultural, los museos y la comunicación responsable del patrimonio en entornos físicos y digitales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

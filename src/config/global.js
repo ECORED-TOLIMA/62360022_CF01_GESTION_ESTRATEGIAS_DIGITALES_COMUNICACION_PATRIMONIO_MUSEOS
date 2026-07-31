@@ -322,11 +322,11 @@ export default {
   referencias: [
     {
       referencia:
-        'Comunidad Andina. (1993). Decisión 351 de 1993: Régimen común sobre derecho de autor y derechos conexos.',
+        'Comunidad Andina. (1993). <em>Decisión 351 de 1993: Régimen común sobre derecho de autor y derechos conexos.</em>',
     },
     {
       referencia:
-        'Congreso de Colombia. (1982). Ley 23 de 1982. Sobre derechos de autor. Diario Oficial No. 35.949.',
+        'Congreso de Colombia. (1982). <em>Ley 23 de 1982. Sobre derechos de autor. Diario Oficial No. 35.949.</em>',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3431',
     },
     {
@@ -346,10 +346,11 @@ export default {
     },
     {
       referencia:
-        'Eve Museos e Innovación. (2024). Museos conectados y comunidades digitales: Estrategias de interacción. EVE Museografía.',
+        'Eve Museos e Innovación. (2024). <em>Museos conectados y comunidades digitales: Estrategias de interacción.</em> EVE Museografía.',
     },
     {
-      referencia: 'Google Arts & Culture. (s.f.). Google Arts & Culture.',
+      referencia:
+        'Google Arts & Culture. (s.f.). <em>Google Arts & Culture.</em>',
       link: 'https://artsandculture.google.com/',
     },
     {
@@ -359,34 +360,34 @@ export default {
     },
     {
       referencia:
-        'Jenkins, H. (2008). Convergence culture: La cultura de la convergencia de los medios de comunicación. Paidós.',
+        'Jenkins, H. (2008). <em>Convergence culture: La cultura de la convergencia de los medios de comunicación.</em> Paidós.',
     },
     {
       referencia:
-        'Kotler, N., Kotler, P., & Kotler, W. I. (2008). Museum marketing and strategy: Designing missions, building audiences, generating revenue and resources (2nd ed.). Jossey-Bass.',
+        'Kotler, N., Kotler, P., & Kotler, W. I. (2008). <em>Museum marketing and strategy: Designing missions, building audiences, generating revenue and resources</em> (2nd ed.). Jossey-Bass.',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO). (2003). El texto de la Convención para la Salvaguardia del Patrimonio Cultural Inmaterial.',
+        'Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO). (2003). <em>El texto de la Convención para la Salvaguardia del Patrimonio Cultural Inmaterial.</em>',
       link: 'https://ich.unesco.org/es/convenci%C3%B3n',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO). (2005). Convención sobre la Protección y Promoción de la Diversidad de las Expresiones Culturales.',
+        'Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO). (2005). <em>Convención sobre la Protección y Promoción de la Diversidad de las Expresiones Culturales.</em>',
       link: 'https://unesdoc.unesco.org/ark:/48223/pf0000142919_spa',
     },
     {
       referencia:
-        'Universidad Autónoma de Occidente. (s.f.). Museo Lilí [Museo virtual].',
+        'Universidad Autónoma de Occidente. (s.f.). <em>Museo Lilí</em> [Museo virtual].',
       link: 'https://museo.uao.edu.co/',
     },
     {
       referencia:
-        'Villaespesa, E. (2019). Museum audiences: Data and insights. Routledge.',
+        'Villaespesa, E. (2019). <em>Museum audiences: Data and insights.</em> Routledge.',
     },
     {
       referencia:
-        'Van Dijck, J. (2016). La cultura de la conectividad: Una historia crítica de las redes sociales. Siglo XXI Editores.',
+        'Van Dijck, J. (2016). <em>La cultura de la conectividad: Una historia crítica de las redes sociales.</em> Siglo XXI Editores.',
     },
   ],
   creditos: [

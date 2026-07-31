@@ -157,7 +157,7 @@
           .tarjeta.tarjeta--blanca.p-3(x="42.5%" y="57%" numero="3")(style="background-color:#FCEBCA")
             p Implica ajustar los contenidos a los distintos formatos y plataformas digitales, con el fin de facilitar su acceso, comprensión y difusión.
           .tarjeta.tarjeta--blanca.p-3(x="58%" y="20%" numero="4")(style="background-color:#FCEBCA")
-            p Hace referencia a la publicación de los contenidos en sitios web, redes sociales y otros medios digitales, buscando ampliar el alcance de la divulgación patrimonial.
+            p Hace referencia a la publicación de los contenidos en sitios #[i web], redes sociales y otros medios digitales, buscando ampliar el alcance de la divulgación patrimonial.
           .tarjeta.tarjeta--blanca.p-3(x="74.5%" y="57%" numero="5")(style="background-color:#FCEBCA")
             p Comprende la participación de los públicos mediante comentarios, consultas y otras formas de interacción que fortalecen el diálogo y la apropiación del patrimonio cultural.
           .tarjeta.tarjeta--blanca.p-3(x="90%" y="20%" numero="6")(style="background-color:#FCEBCA")
