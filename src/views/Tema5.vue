@@ -42,9 +42,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-0 El siguiente video explica de manera de manera puntual todo lo que tiene que ver con el tema de derechos de autor:
+              p.mb-0 El siguiente video explica de manera puntual todo lo que tiene que ver con el tema de derechos de autor:
             .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/embed/uKZZxlT4F5M" target="_blank")
+              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/watch?v=uKZZxlT4F5M" target="_blank")
                 span Abrir video
                 i.fas.fa-file-video
 
@@ -102,7 +102,7 @@
             .col.mb-3.mb-sm-0
               p.mb-0 Para complementar este contenido, analice el siguiente video, en el que se presentan los principios del Código Deontológico de los Museos y su importancia para la gestión ética del patrimonio cultural:
             .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/embed/tItexcToMvA" target="_blank")
+              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/watch?v=tItexcToMvA" target="_blank")
                 span Abrir video
                 i.fas.fa-file-video
 

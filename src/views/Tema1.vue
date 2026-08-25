@@ -88,7 +88,7 @@
             .col.mb-3.mb-sm-0
               p.mb-0 Para complementar lo relacionado con el patrimonio cultural inmaterial, acceda al siguiente video explicativo del Ministerio de las Culturas las Artes y los Saberes: 
             .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/embed/zWGNdLMRuAU" target="_blank")
+              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/watch?v=zWGNdLMRuAU" target="_blank")
                 span Abrir video
                 i.fas.fa-file-video
 

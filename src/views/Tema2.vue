@@ -27,7 +27,7 @@
             .col.mb-3.mb-sm-0
               p.mb-0 Se invita a consultar el siguiente video denominado: “Los museos en la sociedad”, el cual contextualiza un poco sobre esta temática:
             .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/embed/qvBJSN3pr14" target="_blank")
+              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/watch?v=qvBJSN3pr14" target="_blank")
                 span Abrir video
                 i.fas.fa-file-video
 
