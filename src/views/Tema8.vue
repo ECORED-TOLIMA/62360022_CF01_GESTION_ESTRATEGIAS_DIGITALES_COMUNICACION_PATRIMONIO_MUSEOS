@@ -16,20 +16,20 @@
 
     .row.justify-content-center
       .col.col-lg-10.col-12
-        p La comunicación cultural en entornos digitales también busca mantener el interés de las personas y promover una relación continua con las iniciativas de una institución. Esto hace que el concepto de #[i engagement], entendido como el nivel de interés, participación y compromiso que las audiencias desarrollan frente a una institución, una temática o una propuesta cultural adquiera mayor relevancia. Este vínculo puede manifestarse mediante la consulta frecuente de contenidos, la participación en actividades, el intercambio de experiencias o la colaboración en proyectos relacionados con el patrimonio.
+        p La comunicación cultural en entornos digitales también busca mantener el interés de las personas y promover una relación continua con las iniciativas de una institución. Esto hace que el concepto de #[i engagement], entendido como el nivel de interés, participación y compromiso que las audiencias desarrollan frente a una institución, una temática o una propuesta cultural, adquiera mayor relevancia. Este vínculo puede manifestarse mediante la consulta frecuente de contenidos, la participación en actividades, el intercambio de experiencias o la colaboración en proyectos relacionados con el patrimonio.
 
     .row.justify-content-center
       .col.col-lg-10.col-12
         .cajon.cajon.C01.color-secundario.px-4.py-3
-          p.mb-0 La continuidad de esta relación depende, en buena medida, de la capacidad de las instituciones para ofrecer contenidos atractivos e interesantes, generar espacios de interacción y reconocer las expectativas de sus audiencias. Cuando la información resulta significativa para los contextos y experiencias de las personas, existen mayores posibilidades de fortalecer su vinculación con las iniciativas culturales y de propiciar una participación más activa en alrededor del patrimonio.
+          p.mb-0 La continuidad de esta relación depende, en buena medida, de la capacidad de las instituciones para ofrecer contenidos atractivos e interesantes, generar espacios de interacción y reconocer las expectativas de sus audiencias. Cuando la información resulta significativa para los contextos y experiencias de las personas, existen mayores posibilidades de fortalecer su vinculación con las iniciativas culturales y de propiciar una participación más activa en torno al patrimonio.
 
     Separador
 
     #t_8_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 8.1. Campañas e identidad institucional en entornos digitales
+      h2 8.1 Campañas e identidad institucional en entornos digitales
 
     p Las campañas digitales son estrategias de comunicación desarrolladas durante un periodo determinado con el propósito de dar visibilidad a actividades, proyectos o temas de interés. En el ámbito cultural, suelen emplearse para difundir exposiciones, conmemoraciones, convocatorias, procesos de memoria e iniciativas vinculadas al patrimonio. Su planificación implica establecer objetivos, identificar las audiencias a las que se dirige la información y seleccionar los canales más apropiados para cada acción de divulgación.
-    p.mb-4 Según sus objetivos, las campañas digitales pueden orientarse a diferentes propósitos de comunicación; destacándose las siguientes:
+    p.mb-4 Según sus objetivos, las campañas digitales pueden orientarse a diferentes propósitos de comunicación, destacándose las siguientes:
 
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.color-primario.cafe.p-5
@@ -66,7 +66,7 @@
       .col-lg-3.col-md-5.col-12
         .recurso-ley-patrimonio__img.d-none.d-lg-block
           figure.mb-0
-            img(src='@/assets/curso/temas/t8/img-04.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t8/img-04.png', alt='')
 
       .col-lg-7.col-md-7.col-12
         .recurso-ley-patrimonio__texto

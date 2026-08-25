@@ -21,23 +21,23 @@
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/temas/t3/img-01.svg", alt="alt").img80.m-auto
+              img(src="@/assets/curso/temas/t3/img-01.svg", alt="").img80.m-auto
           h4.text-center Identidad cultural
-          p Hace referencia a la relación que las personas y las comunidades establecen con los bienes, prácticas y manifestaciones culturales que reconocen como parte de su trayectoria histórica y cultural.
+          p.text-center Hace referencia a la relación que las personas y las comunidades establecen con los bienes, prácticas y manifestaciones culturales que reconocen como parte de su trayectoria histórica y cultural.
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/temas/t3/img-02.svg", alt="alt").img80.m-auto
+              img(src="@/assets/curso/temas/t3/img-02.svg", alt="").img80.m-auto
           h4.text-center Memoria colectiva
-          p Corresponde al conjunto de recuerdos, conocimientos y experiencias compartidas que contribuyen a comprender los procesos históricos y sociales de una comunidad.
+          p.text-center Corresponde al conjunto de recuerdos, conocimientos y experiencias compartidas que contribuyen a comprender los procesos históricos y sociales de una comunidad.
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/temas/t3/img-03.svg", alt="alt").img80.m-auto
+              img(src="@/assets/curso/temas/t3/img-03.svg", alt="").img80.m-auto
           h4.text-center Apropiación comunitaria
-          p Se relaciona con la participación de las comunidades en la valoración, preservación, transmisión y divulgación del patrimonio cultural.
+          p.text-center Se relaciona con la participación de las comunidades en la valoración, preservación, transmisión y divulgación del patrimonio cultural.
 
     .row.justify-content-center.mb-4
       .col-lg-12.col-12
@@ -61,7 +61,7 @@
     Separador
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.1. Patrimonio cultural e identidad
+      h2 3.1 Patrimonio cultural e identidad
 
     p La identidad cultural se construye a partir de los elementos que las personas y las comunidades reconocen como parte de su historia, sus prácticas y sus formas de vida. En este proceso, el patrimonio cultural constituye un referente importante porque reúne conocimientos, expresiones, tradiciones y manifestaciones que fortalecen los vínculos entre los individuos y su contexto social.
     p.mb-4 La relación entre patrimonio e identidad puede entenderse en diferentes aspectos:
@@ -108,7 +108,7 @@
     Separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2. Patrimonio cultural y memoria colectiva
+      h2 3.2 Patrimonio cultural y memoria colectiva
 
     p.mb-4 La construcción de la memoria colectiva se da a partir de hechos, relatos y experiencias que una sociedad considera importantes y decide conservar. En este proceso, el patrimonio cultural funciona como una referencia que permite recordar prácticas, conocimientos y acontecimientos relacionados con la historia de una comunidad (Congreso de Colombia, 2008).
 
@@ -134,7 +134,7 @@
     Separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3. Apropiación comunitaria del patrimonio cultural
+      h2 3.3 Apropiación comunitaria del patrimonio cultural
 
     p.mb-4 La apropiación comunitaria del patrimonio cultural se fortalece cuando las personas reconocen los bienes, prácticas y manifestaciones culturales como parte de su historia, sus experiencias y su vida cotidiana. Este proceso implica la valoración y participación en su cuidado, transmisión y resignificación dentro de la comunidad. En consecuencia, las comunidades asumen un papel protagónico en la preservación, protección y continuidad del patrimonio cultural, contribuyendo a mantener vivos los conocimientos, las tradiciones y las expresiones que forman parte de su identidad colectiva.
 
@@ -163,12 +163,13 @@
       .col-lg-8.col-12
         .podcast-recurso.podcast-recurso--final
           .podcast-recurso__imagen
-            img(src='@/assets/curso/temas/t3/img-12v.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t3/img-12v.svg', alt='')
 
           .podcast-recurso__contenido
+            h4.podcast-recurso__titulo.mb-2 Pódcast
             .podcast-recurso__audio
               .podcast-recurso__info
-                h5.mb-1 Apropiación comunitaria del patrimonio cultural
+                p.mb-1 Patrimonio cultural: una historia que une
                 span {{ tiempoActual }} / {{ duracionAudio }}
 
               .podcast-recurso__barra(@click="cambiarTiempoAudio")

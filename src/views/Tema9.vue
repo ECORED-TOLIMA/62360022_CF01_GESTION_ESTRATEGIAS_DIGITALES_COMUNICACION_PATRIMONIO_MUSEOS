@@ -21,7 +21,7 @@
             .col-lg-4.col-md-4.col-12
               .recurso-contenidos-digitales__img
                 figure.mb-0
-                  img(src='@/assets/curso/temas/t9/img-01.png', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/t9/img-01.png', alt='')
 
     p.mb-4.text-center Cada medio aporta posibilidades particulares:
 
@@ -72,7 +72,7 @@
     Separador
 
     #t_9_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 9.1. Planeación de contenidos culturales
+      h2 9.1 Planeación de contenidos culturales
 
     p.mb-4 Presentar información cultural de manera digital requiere una planificación previa para la selección de temas, recursos y momentos de publicación. Este proceso ayuda a coordinar las acciones de comunicación y a mantener una relación clara entre los propósitos institucionales, los intereses de las audiencias y las actividades que se desarrollan a lo largo del tiempo.
 
@@ -116,14 +116,14 @@
     Separador
 
     #t_9_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 9.2. Narrativas digitales y distribución de contenidos
+      h2 9.2 Narrativas digitales y distribución de contenidos
 
     p.mb-4 Entendidas como el arte de estructurar relatos dinámicos aprovechando formatos multimedia y la participación del usuario, las narrativas digitales reconfiguran la difusión cultural. Estas herramientas permiten articular las historias y los contextos del patrimonio a través de diferentes plataformas en línea, convirtiendo la información abstracta en experiencias interactivas y colectivas. La ventaja fundamental de esta metodología es que conecta el rigor informativo con la interpretación creativa, logrando que el público se involucre activamente en el proceso comunicativo.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")(style="background-color: #E5DFCA !important")
       .bloque-texto-g__img.img-bg-09.tema9
       .bloque-texto-g__texto.p-4
-        p.mb-0 Entre las estrategias más utilizadas se encuentra la narrativa transmedia, la cual propone desplegar un universo narrativo a través de múltiples soportes donde cada canal ofrece contenidos únicos y complementarios a la experiencia global. Bajo este enfoque, un proyecto sobre patrimonio cultural puede expandirse mediante redes sociales, recursos audiovisuales, experiencias inmersivas y materiales didácticos, asegurando que las piezas no se limiten a duplicar la información, sino que enriquezcan el relato general. Así, estas estrategias multiformato responden a la necesidad de diversificar los recursos para adaptarse a los distintos intereses, expectativas y formas de acceso de las audiencias. (Jenkins, 2008)
+        p.mb-0 Entre las estrategias más utilizadas se encuentra la narrativa transmedia, la cual propone desplegar un universo narrativo a través de múltiples soportes, donde cada canal ofrece contenidos únicos y complementarios a la experiencia global. Bajo este enfoque, un proyecto sobre patrimonio cultural puede expandirse mediante redes sociales, recursos audiovisuales, experiencias inmersivas y materiales didácticos, asegurando que las piezas no se limiten a duplicar la información, sino que enriquezcan el relato general. Así, estas estrategias multiformato responden a la necesidad de diversificar los recursos para adaptarse a los distintos intereses, expectativas y formas de acceso de las audiencias. (Jenkins, 2008)
 
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12

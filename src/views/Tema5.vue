@@ -13,7 +13,7 @@
       .col-lg-3.col-md-5.col-12
         .recurso-ley-patrimonio__img
           figure.mb-0
-            img(src='@/assets/curso/temas/t5/img-01.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t5/img-01.svg', alt='')
 
       .col-lg-7.col-md-7.col-12
         .recurso-ley-patrimonio__texto
@@ -22,7 +22,7 @@
     Separador
 
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 5.1. Derechos de autor y propiedad intelectual
+      h2 5.1 Derechos de autor y propiedad intelectual
 
     p.mb-4 La protección de los derechos de autor constituye un aspecto fundamental en los procesos de comunicación y divulgación del patrimonio cultural. Los museos, centros de memoria y demás instituciones culturales utilizan diversos tipos de contenidos, como textos, fotografías, ilustraciones, registros sonoros, materiales audiovisuales, bases de datos y recursos digitales, cuya utilización debe realizarse de acuerdo con los principios y disposiciones que regulan la propiedad intelectual. Estas normas buscan proteger la creación intelectual, reconocer la autoría de las obras y garantizar que los contenidos sean utilizados de manera legítima y respetuosa.
 
@@ -51,7 +51,7 @@
     Separador
 
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 5.2. Protección de datos personales en la comunicación cultural
+      h2 5.2 Protección de datos personales en la comunicación cultural
 
     p.mb-4 La comunicación del patrimonio cultural puede involucrar el tratamiento de datos personales, especialmente cuando se utilizan fotografías, testimonios, entrevistas, registros audiovisuales, publicaciones en redes sociales o cualquier otro contenido que permita identificar directa o indirectamente a una persona. Esta situación es frecuente en proyectos de memoria, exposiciones participativas, actividades de mediación cultural y procesos de documentación del patrimonio en los que intervienen comunidades, investigadores, visitantes y portadores de manifestaciones culturales.
 
@@ -67,24 +67,17 @@
       .col.col-lg-10.col-12
         .cajon.cajon.C01.color-secundario.px-4.py-3
           p.mb-0 El manejo adecuado de la información personal fortalece la confianza entre las instituciones culturales y sus públicos. Cuando las personas perciben que sus datos son tratados de forma segura y respetuosa, se favorece su participación en proyectos de investigación, conservación y divulgación del patrimonio. De igual manera, estas prácticas promueven una comunicación cultural en la que la protección de los derechos de las personas se integra a los procesos de valorización, apropiación social y difusión del patrimonio.
-
-    .tarjeta.color-primario.video.p-3
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/t1/img-04.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.mb-0 Acceda al siguiente video y conozca lo relacionado con la Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales: 
-            .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/embed/iCDy_Omwv0Q" target="_blank")
-                span Abrir video
-                i.fas.fa-file-video
+    
+    .row.justify-content-center.align-items-center           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/iCDy_Omwv0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 5.3. Criterios éticos para la divulgación del patrimonio cultural
+      h2 5.3 Criterios éticos para la divulgación del patrimonio cultural
 
     p.mb-4 Dar a conocer el patrimonio cultural implica asumir criterios éticos que orienten la manera en que los bienes, las memorias y las expresiones culturales son representados y compartidos con distintos públicos. Estos criterios se relacionan con el respeto por las comunidades, la protección de los tejidos culturales y la responsabilidad social de las instituciones encargadas de comunicar el patrimonio. En este sentido, el Código de Deontología para los Museos del Consejo Internacional de Museos establece principios de responsabilidad, transparencia y manejo adecuado de las colecciones y contenidos patrimoniales (ICOM, 2013).
 

@@ -34,7 +34,7 @@
     Separador
 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.1. Tipologías de museos
+      h2 2.1 Tipologías de museos
 
     p Los museos pueden clasificarse según el tipo de patrimonio que conservan o los temas que abordan. Existen museos de arte, historia, arqueología, ciencia, etnografía y memoria, entre otros. Cada uno organiza sus colecciones y actividades de acuerdo con los intereses culturales, educativos o sociales que orientan su trabajo.
     p.mb-4 Identificar los tipos de museos ayuda a comprender cómo cambia la relación entre estos y la comunidad. Por ejemplo:
@@ -83,7 +83,7 @@
               tr(data-aos="fade-right")
                 td(style="background-color: #F6F6F6;") Museo de arte.
                 td(style="background-color: #F6F6F6;") Patrimonio artístico (pinturas, esculturas, instalaciones).
-                td(style="background-color: #F6F6F6;") Preservar y difundir el arte; fomentar la apreciación estética y reflexión cultural.
+                td(style="background-color: #F6F6F6;") Preservar y difundir el arte; fomentar la apreciación estética y la reflexión cultural.
               tr(data-aos="fade-right")
                 td Museo de historia.
                 td Patrimonio histórico (documentos, objetos, testimonios).
@@ -112,7 +112,7 @@
     Separador
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.2. El museo como agente de identidad y memoria
+      h2 2.2 El museo como agente de identidad y memoria
 
     p.mb-4 Los museos desempeñan una función social que va más allá de la conservación de colecciones. A través de la investigación, interpretación y difusión del patrimonio cultural, contribuyen a que diferentes públicos conozcan y comprendan hechos, procesos y manifestaciones que forman parte de la historia de las comunidades. Además de preservar objetos y testimonios, los museos organizan exposiciones, actividades educativas y espacios de mediación que facilitan el encuentro entre el patrimonio y la sociedad. Estas acciones ayudan a contextualizar los bienes culturales y a promover reflexiones sobre su significado dentro de distintos entornos sociales y culturales.
 

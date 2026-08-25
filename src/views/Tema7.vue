@@ -13,7 +13,7 @@
       .col-lg-3.col-md-5.col-12
         .recurso-ley-patrimonio__img
           figure.mb-0
-            img(src='@/assets/curso/temas/t7/img-01.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t7/img-01.svg', alt='')
 
       .col-lg-7.col-md-7.col-12
         .recurso-ley-patrimonio__texto
@@ -33,7 +33,7 @@
     Separador
 
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 7.1. Audiencias digitales
+      h2 7.1 Audiencias digitales
 
     p.mb-4 Los museos y las organizaciones culturales se relacionan con personas que poseen intereses, conocimientos y motivaciones diversas. Las audiencias digitales pueden incluir estudiantes, docentes, investigadores, turistas, integrantes de comunidades vinculadas al patrimonio, gestores culturales y ciudadanos interesados en temas históricos, artísticos o culturales. Reconocer esta diversidad ayuda a comprender que un mismo contenido puede generar diferentes formas de interpretación y uso.
 
@@ -41,7 +41,7 @@
       .col-lg-3.col-md-5.col-12
         .recurso-ley-patrimonio__img
           figure.mb-0
-            img(src='@/assets/curso/temas/t7/img-06.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t7/img-06.svg', alt='')
 
       .col-lg-7.col-md-7.col-12
         .recurso-ley-patrimonio__texto
@@ -54,7 +54,7 @@
     Separador
 
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 7.2. Participación cultural en entornos digitales
+      h2 7.2 Participación cultural en entornos digitales
 
     p.mb-4 La participación cultural en entornos digitales hace referencia a las diferentes formas en que las personas se vinculan con contenidos, proyectos e iniciativas relacionadas con el patrimonio cultural a través de plataformas virtuales.
 
@@ -96,13 +96,13 @@
     Separador
 
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 7.3. Caracterización de públicos para la gestión cultural digital
+      h2 7.3 Caracterización de públicos para la gestión cultural digital
 
     p.mb-4 Una vez identificadas las audiencias de una institución cultural, resulta necesario recopilar y analizar información que lleve a la comprensión de sus comportamientos, intereses y expectativas de consumo. Este proceso aporta elementos clave para interpretar cómo las personas se relacionan con las propuestas culturales y cuáles factores influyen en su acercamiento a los contenidos en línea, revelando, además, las posibles barreras que limitan el acceso al patrimonio.
 
     .row.BG01.justify-content-center.px-md-5.px-4.mb-4
       .col-lg-7.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
-        p Factores como las condiciones tecnológicas, los lenguajes, la accesibilidad y las formas de representación de ciertos grupos inciden directamente en el comportamiento digital de las personas. En este sentido, reconocer dichas dinámicas abre caminos para optimizar las estrategias de divulgación, volviendo indispensable la comprensión profunda de las audiencias especialmente de sus conductas y demandas informativas para estructurar acciones pertinentes que respondan con precisión a los contextos específicos de la comunicación cultural.
+        p Factores como las condiciones tecnológicas, los lenguajes, la accesibilidad y las formas de representación de ciertos grupos inciden directamente en el comportamiento digital de las personas. En este sentido, reconocer dichas dinámicas abre caminos para optimizar las estrategias de divulgación, volviendo indispensable la comprensión profunda de las audiencias, especialmente de sus conductas y demandas informativas, para estructurar acciones pertinentes que respondan con precisión a los contextos específicos de la comunicación cultural.
         .cajon.cajon.C05.px-4.py-4.mb-4
           p.mb-0 Para obtener estos datos, pueden emplearse herramientas como encuestas, entrevistas, formularios de registro, análisis de navegación y la observación de las dinámicas en plataformas virtuales. Estos mecanismos permiten identificar patrones de comportamiento, temas de interés y formas de interacción que ayudan a construir una visión más amplia de los públicos (Villaespesa, 2019). 
       .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
@@ -129,44 +129,42 @@
 </template>
 
 <script>
+import imgSlyder02 from '@/assets/curso/temas/t7/img-02.png'
+import imgSlyder03 from '@/assets/curso/temas/t7/img-03.png'
+import imgSlyder04 from '@/assets/curso/temas/t7/img-04.png'
+import imgSlyder05 from '@/assets/curso/temas/t7/img-05.png'
+
 export default {
   name: 'Tema7',
   data: () => ({
     indicadorTarjetaFlip: true,
     indicadorTarjetaSlide: true,
     mostrarIndicadorTarjetaAudio: true,
+
     datosSlyder: [
       {
         titulo: 'Comunidades de consulta y aprendizaje',
         texto:
           'Reúnen a personas interesadas en adquirir, intercambiar y fortalecer conocimientos relacionados con el patrimonio cultural. Sus integrantes participan en la consulta de recursos, el análisis de investigaciones, la discusión de contenidos y el desarrollo de actividades formativas que favorecen la comprensión, valoración y difusión del patrimonio.',
-        imagen: new URL('@/assets/curso/temas/t7/img-02.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: imgSlyder02,
       },
       {
         titulo: 'Comunidades de co-creación',
         texto:
           'Promueven la participación activa de sus miembros en la generación de contenidos y proyectos colaborativos. A través de estas comunidades se documentan experiencias locales, se elaboran recursos multimedia, se recopilan testimonios y se desarrollan iniciativas orientadas a la preservación, divulgación y apropiación social del patrimonio cultural.',
-        imagen: new URL('@/assets/curso/temas/t7/img-03.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: imgSlyder03,
       },
       {
         titulo: 'Comunidades territoriales o de tradición',
         texto:
           'Integran a personas vinculadas por un mismo territorio, identidad cultural o herencia histórica. Su propósito es preservar y transmitir conocimientos, costumbres, manifestaciones y memorias colectivas que fortalecen el sentido de pertenencia y contribuyen a la continuidad de las tradiciones de la comunidad.',
-        imagen: new URL('@/assets/curso/temas/t7/img-04.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: imgSlyder04,
       },
       {
         titulo: 'Comunidades de coyuntura o transitorias',
         texto:
           'Se conforman de manera temporal alrededor de actividades, eventos o proyectos específicos, como exposiciones, festivales, campañas culturales o investigaciones colaborativas. Aunque su duración es limitada, favorecen el intercambio de experiencias, la participación ciudadana y la difusión de contenidos patrimoniales entre diversos públicos.',
-        imagen: new URL('@/assets/curso/temas/t7/img-05.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: imgSlyder05,
       },
     ],
   }),

@@ -21,25 +21,25 @@
     Separador
 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1. Normatividad del patrimonio cultural en Colombia
+      h2 4.1 Normatividad del patrimonio cultural en Colombia
 
-    p.mb-4 En Colombia, la protección del patrimonio cultural se apoya en la Ley General de Cultura, que reconoce la cultura como parte fundamental de la identidad nacional y establece responsabilidades para su preservación y difusión (Congreso de Colombia, 1997). Esta norma define el patrimonio cultural como un bien de interés social y orienta las acciones relacionadas con su gestión y conservación.
+    p.mb-4 En Colombia, la protección del patrimonio cultural se apoya en la Ley General de Cultura (Ley 397 de 1997), y en sus modificaciones y adiciones posteriores. Esta norma reconoce la cultura como parte fundamental de la identidad nacional y establece responsabilidades para su valoración, protección y difusión. En materia de patrimonio cultural, sus disposiciones orientan las acciones relacionadas con su protección, conservación y gestión, de acuerdo con el marco normativo vigente (Congreso de Colombia, 1997).
 
     .row.justify-content-center.mb-4.recurso-ley-patrimonio.recurso-ley-patrimonio--sin-img-console
       .col-lg-4.col-md-5.col-12
         .recurso-ley-patrimonio__img
           figure.mb-0
-            img(src='@/assets/curso/temas/t4/img-02.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t4/img-02.svg', alt='')
 
       .col-lg-6.col-md-7.col-12
         .recurso-ley-patrimonio__texto
-          p.mb-4 La Ley 1185 de 2008 amplía esta definición al incluir bienes materiales, manifestaciones inmateriales y distintas expresiones culturales asociadas a la identidad del país. Además, plantea acciones relacionadas con la salvaguardia, conservación y divulgación del patrimonio, con el propósito de garantizar su permanencia y transmisión entre generaciones (Congreso de Colombia, 2008).
+          p.mb-4 La Ley 1185 de 2008 modifica y adiciona la Ley 397 de 1997 en materia de patrimonio cultural, precisando que este comprende bienes materiales, manifestaciones inmateriales, productos y representaciones de la cultura que expresan la nacionalidad colombiana. Además, establece disposiciones relacionadas con la salvaguardia, protección, recuperación, conservación, sostenibilidad y divulgación del patrimonio, con el propósito de contribuir a su permanencia y transmisión entre generaciones.
           p.mb-0 Estas disposiciones también sirven de guía para la comunicación del patrimonio en los museos. La comunicación de contenidos patrimoniales debe realizarse de manera responsable, evitando prácticas que distorsionen su significado o afecten su integridad cultural.
 
     Separador
 
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.2. Normativa internacional aplicable al patrimonio cultural
+      h2 4.2 Normativa internacional aplicable al patrimonio cultural
 
     p.mb-4 El marco normativo internacional complementa la legislación nacional y establece orientaciones para la protección y salvaguardia del patrimonio cultural en distintos países. Estas disposiciones reconocen el valor de las prácticas, saberes, expresiones y manifestaciones culturales transmitidas entre generaciones, al tiempo que resaltan el papel de las comunidades en su preservación y continuidad. Promueven el respeto por la diversidad cultural, el acceso equitativo a las expresiones culturales y el desarrollo de prácticas de divulgación más incluyentes, participativas y respetuosas de las diferentes identidades presentes en las comunidades. Este enfoque es particularmente especial para los museos y demás instituciones culturales, ya que orienta el trabajo con patrimonio inmaterial, contenidos culturales vivos y estrategias de comunicación que favorezcan el reconocimiento y la participación de diversos públicos. De igual manera, fomenta acciones educativas y de sensibilización que contribuyen al fortalecimiento de la ciudadanía cultural, al diálogo intercultural y a la valoración de las múltiples formas en que las comunidades construyen y transmiten su herencia cultural. En conjunto, estas orientaciones buscan garantizar que el patrimonio cultural continúe siendo un recurso para la memoria, la identidad, la cohesión social y el desarrollo cultural. (UNESCO, 2005).
 

@@ -66,7 +66,7 @@
     Separador
 
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.1. Canales digitales para museos y organizaciones culturales
+      h2 6.1 Canales digitales para museos y organizaciones culturales
 
     p.mb-4 Los museos y demás organizaciones culturales utilizan diferentes canales digitales para compartir información, difundir actividades y acercar el patrimonio a diversos públicos. En estos espacios es posible ampliar el alcance de las iniciativas culturales y facilitar el acceso a contenidos que antes dependían exclusivamente de la visita presencial.
 
@@ -82,19 +82,19 @@
 
     .row.justify-content-center
       .col.col-lg-10.col-12
-        p La elección de los canales depende de factores como el tipo de información que se desea divulgar, las características de los públicos y los recursos disponibles para su gestión. Es por esto que, las instituciones culturales suelen combinar distintos medios digitales para facilitar el acceso a la información y ampliar las oportunidades de encuentro con el patrimonio funcionando como puntos de conexión entre los contenidos y las personas, extendiendo la información y el acceso a experiencias culturales desde diferentes contextos. Su uso articulado contribuye a fortalecer la presencia de las instituciones culturales en los entornos digitales y la circulación del conocimiento relacionado con el patrimonio.
+        p La elección de los canales depende de factores como el tipo de información que se desea divulgar, las características de los públicos y los recursos disponibles para su gestión. Es por esto que las instituciones culturales suelen combinar distintos medios digitales para facilitar el acceso a la información y ampliar las oportunidades de encuentro con el patrimonio, funcionando como puntos de conexión entre los contenidos y las personas, extendiendo la información y el acceso a experiencias culturales desde diferentes contextos. Su uso articulado contribuye a fortalecer la presencia de las instituciones culturales en los entornos digitales y la circulación del conocimiento relacionado con el patrimonio.
 
     Separador
 
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.2. Comunicación bidireccional e interacción digital
+      h2 6.2 Comunicación bidireccional e interacción digital
 
     p.mb-4 Una de las principales características de los entornos digitales es la posibilidad de establecer intercambios entre quienes producen información y quienes la reciben. A diferencia de los modelos tradicionales, donde la comunicación suele desarrollarse en una sola dirección, las plataformas digitales permiten que los usuarios expresen opiniones, formulen preguntas y compartan experiencias relacionadas con los temas que les interesan. 
 
     .row.BG01.justify-content-center.px-md-5.px-4.mb-4
       .col-lg-7.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         p En el ámbito cultural, esta dinámica ha transformado la manera en que los museos y otras instituciones se relacionan con sus públicos. Las plataformas digitales ofrecen espacios donde es posible conocer inquietudes, identificar temas de interés y recoger aportes que enriquecen la comprensión de los contenidos difundidos. Esta retroalimentación aporta información valiosa para comprender cómo son interpretadas las propuestas culturales y cuáles aspectos despiertan mayor atención entre diferentes grupos de personas.
-        p La comunicación bidireccional o proceso de intercambio de información, también favorece el reconocimiento de múltiples perspectivas sobre el patrimonio cultural. Las colecciones, exposiciones y procesos de memoria pueden generar lecturas diversas según las experiencias y conocimientos de quienes interactúan con ellas. Los entornos digitales ofrecen oportunidades para que estas miradas transiten, se contrasten y aporten nuevos elementos a la comprensión de los fenómenos culturales.
+        p La comunicación bidireccional o proceso de intercambio de información también favorece el reconocimiento de múltiples perspectivas sobre el patrimonio cultural. Las colecciones, exposiciones y procesos de memoria pueden generar lecturas diversas según las experiencias y conocimientos de quienes interactúan con ellas. Los entornos digitales ofrecen oportunidades para que estas miradas transiten, se contrasten y aporten nuevos elementos a la comprensión de los fenómenos culturales.
       .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/t6/img-10.png', alt='')
@@ -107,7 +107,7 @@
     Separador
 
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.3. Ecosistemas digitales en la gestión cultural
+      h2 6.3 Ecosistemas digitales en la gestión cultural
 
     p La gestión cultural contemporánea se desarrolla en entornos donde diferentes herramientas, canales y recursos digitales funcionan de manera articulada. A este conjunto de elementos interrelacionados se le denomina ecosistema digital.
     p.mb-4 Un ecosistema digital integra los distintos medios utilizados por una institución para organizar, comunicar y difundir información. Su importancia radica en la conexión existente entre los diferentes espacios digitales, permitiendo que los contenidos circulen de manera coherente y complementaria dentro de una misma estrategia de comunicación.
@@ -131,32 +131,32 @@
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/t6/img-12.svg' alt='')
-          h4.text-center Museo e instituciones culturales
-          p Son las entidades responsables de conservar, investigar, interpretar y difundir el patrimonio cultural, promoviendo su valoración y acceso por parte de la sociedad.
+          h4.text-center Museos e instituciones culturales
+          p.text-center Son las entidades responsables de conservar, investigar, interpretar y difundir el patrimonio cultural, promoviendo su valoración y acceso por parte de la sociedad.
         .tarjeta.tarjeta--C01.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/t6/img-13.svg' alt='')
           h4.text-center Comunidades y público
-          p Corresponden a las personas y colectivos que crean, preservan, interpretan y participan en la protección y apropiación del patrimonio cultural.
+          p.text-center Corresponden a las personas y colectivos que crean, preservan, interpretan y participan en la protección y apropiación del patrimonio cultural.
         .tarjeta.tarjeta--C01.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/t6/img-14.svg' alt='')
           h4.text-center Sitio #[i web] institucional
-          p Es el medio digital oficial mediante el cual las instituciones publican información, recursos y contenidos relacionados con el patrimonio cultural y sus actividades.
+          p.text-center Es el medio digital oficial mediante el cual las instituciones publican información, recursos y contenidos relacionados con el patrimonio cultural y sus actividades.
         .tarjeta.tarjeta--C01.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/t6/img-15.svg' alt='')
           h4.text-center Repositorios y recorridos virtuales
-          p Son plataformas digitales que almacenan, organizan y permiten explorar colecciones patrimoniales mediante recursos interactivos y recorridos en línea.
+          p.text-center Son plataformas digitales que almacenan, organizan y permiten explorar colecciones patrimoniales mediante recursos interactivos y recorridos en línea.
         .tarjeta.tarjeta--C01.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/t6/img-16.svg' alt='')
           h4.text-center Redes sociales
-          p Son canales de comunicación digital que facilitan la difusión del patrimonio cultural, la interacción con los públicos y la participación de las comunidades mediante contenidos accesibles y dinámicos.
+          p.text-center Son canales de comunicación digital que facilitan la difusión del patrimonio cultural, la interacción con los públicos y la participación de las comunidades mediante contenidos accesibles y dinámicos.
     
 </template>
 

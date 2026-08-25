@@ -21,7 +21,7 @@
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.1. Patrimonio cultural material
+      h2 1.1 Patrimonio cultural material
 
     p.mb-4 El patrimonio cultural material comprende bienes tangibles, muebles e inmuebles, reconocidos por su valor histórico, artístico, científico o simbólico (Congreso de Colombia, 2008). Muchos de estos bienes hacen parte de museos, archivos y espacios patrimoniales, donde su conservación depende de procesos de registro, cuidado y manejo que permitan protegerlos y facilitar un acceso adecuado.
 
@@ -54,7 +54,7 @@
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.2. Patrimonio cultural inmaterial
+      h2 1.2 Patrimonio cultural inmaterial
 
     p.mb-4 El patrimonio cultural inmaterial está conformado por conocimientos, prácticas, expresiones y formas de tradición que las comunidades identifican como parte de su identidad cultural y transmiten de generación en generación (UNESCO, 2003). Su continuidad depende de la participación activa de las personas que lo practican, lo transforman y lo integran a sus dinámicas sociales y cotidianas, permitiendo que estas manifestaciones permanezcan vigentes a través del tiempo.
 
