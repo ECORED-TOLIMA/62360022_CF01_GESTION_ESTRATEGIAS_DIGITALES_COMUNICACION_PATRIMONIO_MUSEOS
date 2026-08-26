@@ -34,19 +34,13 @@
     .row.justify-content-center
       .col.col-lg-10.col-12
         p Más allá de los aspectos jurídicos, el respeto por los derechos de autor representa un compromiso ético con el trabajo intelectual y creativo de artistas, investigadores, fotógrafos, escritores, comunidades y demás actores que participan en la construcción y difusión del conocimiento. Esta práctica favorece una circulación responsable de la información, previene el uso inadecuado de los contenidos y promueve una cultura de respeto por la producción cultural. En consecuencia, la observancia de los principios de propiedad intelectual contribuye a fortalecer la credibilidad de las instituciones culturales y a garantizar que la comunicación del patrimonio se desarrolle de manera responsable. (Congreso de Colombia, 1982).
-    
-    .tarjeta.color-primario.video.p-3
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/t1/img-04.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.mb-0 El siguiente video explica de manera puntual todo lo que tiene que ver con el tema de derechos de autor:
-            .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/watch?v=uKZZxlT4F5M" target="_blank")
-                span Abrir video
-                i.fas.fa-file-video
+        p El siguiente video explica de manera puntual todo lo que tiene que ver con el tema de derechos de autor:
+
+    .row.justify-content-center.align-items-center           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/uKZZxlT4F5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 
@@ -65,9 +59,11 @@
 
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
-        .cajon.cajon.C01.color-secundario.px-4.py-3
+        .cajon.cajon.C01.color-secundario.px-4.py-3.mb-4
           p.mb-0 El manejo adecuado de la información personal fortalece la confianza entre las instituciones culturales y sus públicos. Cuando las personas perciben que sus datos son tratados de forma segura y respetuosa, se favorece su participación en proyectos de investigación, conservación y divulgación del patrimonio. De igual manera, estas prácticas promueven una comunicación cultural en la que la protección de los derechos de las personas se integra a los procesos de valorización, apropiación social y difusión del patrimonio.
-    
+
+        p Acceda al siguiente video y conozca lo relacionado con la Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales: 
+
     .row.justify-content-center.align-items-center           
       .col-lg-12
         figure
