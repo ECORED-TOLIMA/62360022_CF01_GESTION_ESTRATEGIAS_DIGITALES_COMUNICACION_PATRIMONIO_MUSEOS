@@ -23,43 +23,43 @@
       .row.justify-content-center.align-items-end.my-0.BG06-row
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/t6/img-08.png", alt="alt")
+            img(src="@/assets/curso/temas/t6/img-08.png", alt="")
         .col-lg-8 
           SlyderF.custom.color-acento-botones(columnas="col-lg-4 col-xl-4")
             .tarjeta.bgslyder3.p-4
               .row.justify-content-center.mb-3
                 .col-7
-                  img(src="@/assets/curso/temas/t6/img-02.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t6/img-02.svg", alt="")
               h5.text-center Sitio #[i web] institucional
               p.text-center Publicar información permanente y recursos de consulta.
             .tarjeta.bgslyder3.p-4
               .row.justify-content-center.mb-3
                 .col-7
-                  img(src="@/assets/curso/temas/t6/img-03.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t6/img-03.svg", alt="")
               h5.text-center Redes sociales
               p.text-center Difundir información y facilitar la interacción.
             .tarjeta.bgslyder3.p-4
               .row.justify-content-center.mb-3
                 .col-7
-                  img(src="@/assets/curso/temas/t6/img-04.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t6/img-04.svg", alt="")
               h5.text-center #[i Blogs]
               p.text-center Desarrollar contenidos especializados o educativos.
             .tarjeta.bgslyder3.p-4
               .row.justify-content-center.mb-3
                 .col-7
-                  img(src="@/assets/curso/temas/t6/img-05.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t6/img-05.svg", alt="")
               h5.text-center Plataformas de video
               p.text-center Compartir recursos audiovisuales.
             .tarjeta.bgslyder3.p-4
               .row.justify-content-center.mb-3
                 .col-7
-                  img(src="@/assets/curso/temas/t6/img-06.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t6/img-06.svg", alt="")
               h5.text-center Boletines electrónicos
               p.text-center Mantener comunicación periódica con los públicos.
             .tarjeta.bgslyder3.p-4
               .row.justify-content-center.mb-3
                 .col-7
-                  img(src="@/assets/curso/temas/t6/img-07.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t6/img-07.svg", alt="")
               h5.text-center Recorridos virtuales
               p.text-center Facilitar la exploración remota de espacios y colecciones.
 
@@ -74,7 +74,7 @@
       .col-lg-4.col-md-5.col-12
         .recurso-ley-patrimonio__img
           figure.mb-0
-            img(src='@/assets/curso/temas/t6/img-09v.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t6/img-09v.svg', alt='')
 
       .col-lg-6.col-md-7.col-12
         .recurso-ley-patrimonio__texto
